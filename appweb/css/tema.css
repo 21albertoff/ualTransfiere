@@ -1,0 +1,59 @@
+.au-btn--red:hover {
+    color: #fff;
+    background: #CD3838
+    }
+    .au-btn--red {
+    background: #D74242
+}
+
+.verificado .avatar::after {
+    border-radius:1px;
+    border: 1px solid #fff;
+    width:20px;
+    height:20px;
+    background-size: 100% 100%;
+    border-radius: 100%;
+    background-repeat:no-repeat;
+    background: url(../../images/verificado.png);
+    background-size: cover;
+}
+
+.noverificado .avatar::after {
+    border-radius:1px;
+    border: 1px solid #fff;
+    width:1px;
+    height:1px;
+    background-size: 100% 100%;
+    border-radius: 100%;
+    background-repeat:no-repeat;
+    background: rgba(1, 1, 1, 0);
+    background-size: cover;
+}
+
+.overview-item {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 0;
+    -webkit-box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 10%);
+    margin-bottom: 40px;
+}
+
+.overview-item--c1 {
+    background-image: -webkit-linear-gradient(90deg, #007bff 0%, #00adff 100%);
+}
+
+.overview-item--c2 {
+    background-image: -webkit-linear-gradient(90deg, #28a745 0%, #63c76a 100%);
+}
+
+.overview-item--c3 {
+    background-image: -webkit-linear-gradient( 90deg , #ff870b 0%, #ffc107 100%);
+}
+
+.overview-item--c4 {
+    background-image: -webkit-linear-gradient(90deg, #b11c1c 0%, #ff5959 100%);
+}
